@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DBconnect {
 	private static String url="jdbc:mysql://localhost:3306/techscope";
 	private static String user="root";
-	private static String password="gihan7029";
+	private static String password="<password>";
 	private static Connection con;
 
 	public static Connection getConnection() {
